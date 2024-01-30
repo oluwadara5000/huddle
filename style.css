@@ -23,6 +23,128 @@ section {
   background-color: #ffffff;
 }
 
+header{
+  padding: 75px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 175px;
+}
+
+header button{
+  background-color: transparent;
+  border: 1px solid #FF5EAC;
+  padding: 8px 24px;
+  font-size: 18px;
+  border-radius: 50px;
+  color: #FF5EAC;
+  font-family: "Open Sans";
+}
+
+.first-div{
+  text-align: center;
+  padding: 0 215px;
+  margin-bottom: 110px;
+}
+
+.first-div h1{
+  font-family: "Poppins";
+  font-size: 47px;
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 20px;
+}
+
+.first-div p{
+  padding: 0 210px;
+  color: hsl(192, 100%, 9%);
+  font-size: 19px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+
+.first-div button{
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  padding: 27px 105px;
+  font-size: 20px;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: 500;
+  box-shadow: 5px 10px 5px #f0eeee;
+}
+
+.second-div{
+  display: flex;
+  flex-direction: column;
+  padding: 0 210px;
+  gap: 130px;
+  margin-bottom: 140px;
+}
+
+.second-div > div{
+  display: flex;
+  padding: 0 75px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-div > div div h1{
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins";
+  font-size: 100px;
+  font-weight: 600;
+}
+
+.second-div > div div p{
+  text-align: center;
+  font-size: 28px;
+  font-family: "Open Sans";
+  color: #90989E;
+}
+
+.third-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.third-div > div{
+  background-color: #F6FBFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 130px;
+}
+
+.third-div > div div:nth-child(1){
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.third-div > div div:nth-child(1) h1{
+  font-family: "Poppins";
+  color: hsl(192, 100%, 9%);
+  font-size: 40px;
+}
+
+.third-div > div div:nth-child(1) p{
+  font-family: "Open Sans";
+  color: hsl(192, 100%, 9%);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.third-div > div div:nth-child(2){
+  width: 520px;
+}
+
+.third-div > div div:nth-child(2) img{
+  width: inherit;
+}
+
 footer{
   background-color: hsl(192, 100%, 9%);
 }
