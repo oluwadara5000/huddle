@@ -107,13 +107,14 @@ header button{
 .third-div{
   display: flex;
   flex-direction: column;
+  margin-bottom: 200px;
 }
 
 .third-div > div{
   background-color: #F6FBFF;
   display: flex;
   justify-content: space-between;
-  padding: 0 130px;
+  padding: 65px 130px;
 }
 
 .third-div > div div:nth-child(1){
@@ -145,6 +146,178 @@ header button{
   width: inherit;
 }
 
-footer{
-  background-color: hsl(192, 100%, 9%);
+.fourth-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 130px;
+  margin-bottom: 115px;
 }
+
+.fourth-div img{
+  width: 525px;
+}
+
+.fourth-div > div{
+  width: 535px;
+}
+
+.fourth-div > div h1{
+  font-family: "Poppins";
+  color: hsl(192, 100%, 9%);
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.fourth-div > div p{
+  font-family: "Open Sans";
+  color: hsl(192, 100%, 9%);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fifth-div{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 180px;
+}
+
+.fifth-div > div{
+    background-color: #F6FBFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 130px;
+}
+
+.fifth-div > div div:nth-child(1){
+  width: 515px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fifth-div > div div:nth-child(1) h1{
+  font-family: "Poppins";
+  color: hsl(192, 100%, 9%);
+  font-size: 40px;
+}
+
+.fifth-div > div div:nth-child(1) p{
+  font-family: "Open Sans";
+  color: hsl(192, 100%, 9%);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fifth-div > div div:nth-child(2){
+  width: 530px;
+}
+
+.fifth-div > div div:nth-child(2) img{
+  width: inherit;
+}
+
+.sixth-div{
+  text-align: center;
+}
+
+.sixth-div h1{
+  font-family: "Poppins";
+  color: hsl(192, 100%, 9%);
+  font-size: 42px;
+}
+
+.sixth-div button{
+  background-color: hsl(322, 100%, 66%);
+  padding: 28px 113px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: 600;
+  margin-top: 40px;
+  box-shadow: 5px 3px 5px 5px #ecebeb;
+  margin-bottom: 235px  ;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+footer > div{
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 120px;
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+
+footer > div div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 310px;
+font-family: "Open Sans";
+font-size: 15px;
+}
+
+.footer-logo{
+  width: 240px;
+  margin-bottom: 15px;
+}
+
+footer > div div:nth-child(1) > :nth-child(2){
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+footer > div div:nth-child(1) :nth-child(3), footer > div div:nth-child(1) :nth-child(4){
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+footer > div div:nth-child(1) :nth-child(4){
+  margin-bottom: 80px;
+}
+
+footer > div div:nth-child(1) > div{
+ display: flex;
+ gap: 25px;
+ margin: 0;
+ font-size: 32px;
+}
+
+footer > div div:nth-child(2){
+  width: 520px;
+}
+
+footer > div div:nth-child(2) h1{
+ font-family: "Open Sans";
+ font-size: 24px;
+ font-weight: 600;
+ margin-bottom: 25px;
+}
+
+footer > div div:nth-child(2) p{
+ font-family: "Open Sans";
+ font-size: 16px;
+ margin-bottom: 45px;
+ line-height: 26px;
+}
+
+footer form{
+  display: flex;
+}
+
+footer form input{
+  
+}
+
+
