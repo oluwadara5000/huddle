@@ -41,6 +41,11 @@ header button{
   font-family: "Open Sans";
 }
 
+header button:hover{
+  border: 1px solid hsl(321, 100%, 78%);
+  color: hsl(321, 100%, 78%);
+}
+
 .first-div{
   text-align: center;
   padding: 0 215px;
@@ -73,6 +78,10 @@ header button{
   font-family: "Open Sans";
   font-weight: 500;
   box-shadow: 5px 10px 5px #f0eeee;
+}
+
+.first-div button:hover{
+  background-color: hsl(321, 100%, 78%);
 }
 
 .second-div{
@@ -242,6 +251,10 @@ header button{
   margin-bottom: 235px  ;
 }
 
+.sixth-div button:hover{
+  background-color: hsl(321, 100%, 78%);
+}
+
 footer{
   display: flex;
   flex-direction: column;
@@ -314,10 +327,46 @@ footer > div div:nth-child(2) p{
 
 footer form{
   display: flex;
+  justify-content: space-between;
 }
 
 footer form input{
-  
+  width: 320px;
+  padding: 16px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+}
+
+footer form input:focus{
+  outline: none;
+}
+
+[type="email"]:invalid{
+  border: 1px solid hsl(322, 100%, 66%) ;
+}
+
+.error-message{
+  display: none;
+  color: red;
+  font-size: 10px;
+  font-family: "Open Sans";
+  margin-top: 10px;
+}
+
+footer form button{
+  padding: 15px 15px;
+  font-size: 18px;
+  width: 150px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #fff;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 5px;
+}
+
+footer form button:hover{
+  background-color: hsl(321, 100%, 78%);
 }
 
 
