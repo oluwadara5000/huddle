@@ -119,6 +119,10 @@ header button:hover{
   margin-bottom: 200px;
 }
 
+.third-div-top-mobile, .third-div-bottom-mobile{
+  display: none;
+}
+
 .third-div > div{
   background-color: #F6FBFF;
   display: flex;
@@ -368,5 +372,149 @@ footer form button{
 footer form button:hover{
   background-color: hsl(321, 100%, 78%);
 }
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 374px and BELOW */
+@media screen and (max-width: 374px) {
+  section {
+    width: 100%;
+  }
 
+  header{
+    padding: 0 25px;
+    padding-top: 25px;
+    margin-bottom: 125px;
+  }
 
+  header img{
+    width: 95px;
+  }
+
+  header button{
+    font-size: 12px;
+    padding: 3px 12px;
+  }
+
+  .first-div {
+    padding: 0;
+  }
+
+  .first-div h1{
+    padding: 0 55px;
+    font-size: 23px;
+  }
+
+  .first-div p{
+    padding: 0 45px;
+    font-size: 13px;
+  }
+
+  .first-div button{
+    padding: 9px 24px;
+    font-size: 16px;
+  }
+
+  .second-div{
+    padding: 0 40px;
+    gap: 120px;
+    margin-bottom: 25px;
+  }
+
+  .second-div > div{
+    flex-direction: column;
+    padding: 0 65px;
+    gap: 100px;
+  }
+
+  .second-div > div div h1{
+  font-size: 60px;
+}
+
+.second-div > div div p{
+  font-size: 18px;
+}
+
+.third-div{
+margin-bottom: 130px;
+}
+
+.third-div-top-mobile, .third-div-bottom-mobile{
+  display: block;
+}
+
+.third-div-top-desktop, .third-div-bottom-desktop{
+  display: none;
+}
+
+.third-div > div{
+  flex-direction: column-reverse;
+  /* justify-content: space-between; */
+  padding: 85px 40px;
+  gap: 80px;
+}
+
+.third-div > div div:nth-child(1){
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.third-div > div div:nth-child(1) h1{
+  font-size: 24px;
+  text-align: center;
+}
+
+.third-div > div div:nth-child(1) p{
+text-align: center;
+  font-size: 13px;
+}
+
+.third-div > div div:nth-child(2){
+  width: 100%;
+}
+
+.fourth-div{
+  flex-direction: column;
+  justify-content: center;
+  gap: 90px;
+  padding: 0 30px;
+}
+
+.fourth-div img{
+  width: 100%;
+  padding: 0 30px;
+}
+
+.fourth-div > div{
+  width: 100%;
+}
+
+.fourth-div > div h1{
+ text-align: center;
+  font-size: 20px;
+}
+
+.fourth-div > div p{
+ text-align: center;
+  font-size: 13px;
+}
+}
