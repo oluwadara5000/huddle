@@ -7,14 +7,13 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   cursor: pointer;
-  /* font-family: "Poppins"; */
-  /* font-family: "Open Sans"; */
 }
 
 html,
 body {
   background-color: #000000;
   width: 100%;
+  overflow-x: hidden;
 }
 
 section {
@@ -195,6 +194,10 @@ header button:hover{
   margin-bottom: 180px;
 }
 
+.fifth-div-top-mobile, .fifth-div-bottom-mobile{
+  display: none;
+}
+
 .fifth-div > div{
     background-color: #F6FBFF;
     display: flex;
@@ -367,6 +370,7 @@ footer form button{
   color: #fff;
   background-color: hsl(322, 100%, 66%);
   border-radius: 5px;
+  border: none;
 }
 
 footer form button:hover{
@@ -395,6 +399,10 @@ footer form button:hover{
 @media screen and (max-width: 374px) {
   section {
     width: 100%;
+  }
+
+  br{
+    display: none;
   }
 
   header{
@@ -516,5 +524,359 @@ text-align: center;
 .fourth-div > div p{
  text-align: center;
   font-size: 13px;
+}
+
+.fifth-div{
+margin-bottom: 80px;
+}
+
+.fifth-div-top-mobile, .fifth-div-bottom-mobile{
+  display: block;
+}
+
+.fifth-div-top-desktop, .fifth-div-bottom-desktop{
+  display: none;
+}
+
+.fifth-div > div{
+    flex-direction: column-reverse;
+    gap: 90px;
+    padding: 120px 0;
+}
+
+.fifth-div > div div:nth-child(1){
+  width: 100%;
+  padding: 0 35px;
+  text-align: center;
+}
+
+.fifth-div > div div:nth-child(1) h1{
+  font-size: 28px;
+}
+
+.fifth-div > div div:nth-child(1) p{
+  font-size: 13px;
+}
+
+.fifth-div > div div:nth-child(2){
+  width: 100%;
+  padding: 0 55px;
+}
+
+.sixth-div h1{
+  padding: 0 65px;
+  font-size: 24px;
+}
+
+.sixth-div button{
+  padding: 10px 32px;
+  font-size: 14px;
+  margin: 0 90px;
+  margin-top: 40px;
+  margin-bottom: 250px;
+  width: max-content;
+}
+
+footer > div{
+  flex-direction: column-reverse;
+  padding: 0 27px;
+  padding-top: 130px;
+  padding-bottom: 100px;
+  gap: 100px;
+}
+
+footer > div div:nth-child(1){
+  width: 100%;
+}
+
+.footer-logo{
+  width: 200px;
+}
+
+footer > div div:nth-child(1) :nth-child(4){
+  margin-bottom: 50px;
+}
+
+footer > div div:nth-child(2){
+  width: 100%;
+}
+
+footer > div div:nth-child(2) h1{
+ font-size: 22px;
+}
+
+footer > div div:nth-child(2) p{
+ font-size: 14px;
+ padding-right: 15px;
+}
+
+footer form{
+flex-direction: column;
+text-align: right;
+gap: 15px;
+}
+
+footer form input{
+  width: 100%;
+  font-size: 14px;
+}
+
+footer form button{
+  padding: 11px 15px;
+  font-size: 16px;
+  margin-left: auto;
+}
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 375px TO 450px */
+@media screen and (min-width: 375px) and (max-width: 450px) {
+  section {
+    width: 100%;
+    margin: auto;
+  }
+
+  br{
+    display: none;
+  }
+
+  header{
+    padding: 0 25px;
+    padding-top: 25px;
+    margin-bottom: 125px;
+  }
+
+  header img{
+    width: 95px;
+  }
+
+  header button{
+    font-size: 12px;
+    padding: 3px 12px;
+  }
+
+   .first-div {
+    padding: 0;
+  }
+
+  .first-div h1{
+    padding: 0 55px;
+    font-size: 23px;
+  }
+
+  .first-div p{
+    padding: 0 45px;
+    font-size: 13px;
+  }
+
+  .first-div button{
+    padding: 9px 24px;
+    font-size: 16px;
+  }
+
+    .second-div{
+    padding: 0 40px;
+    gap: 120px;
+    margin-bottom: 25px;
+  }
+
+  .second-div > div{
+    flex-direction: column;
+    padding: 0 65px;
+    gap: 100px;
+  }
+
+  .second-div > div div h1{
+  font-size: 60px;
+}
+
+.second-div > div div p{
+  font-size: 18px;
+}
+
+.third-div{
+margin-bottom: 130px;
+}
+
+.third-div-top-mobile, .third-div-bottom-mobile{
+  display: block;
+}
+
+.third-div-top-desktop, .third-div-bottom-desktop{
+  display: none;
+}
+
+.third-div > div{
+  flex-direction: column-reverse;
+  padding: 85px 40px;
+  gap: 80px;
+}
+
+.third-div > div div:nth-child(1){
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.third-div > div div:nth-child(1) h1{
+  font-size: 24px;
+  text-align: center;
+}
+
+.third-div > div div:nth-child(1) p{
+text-align: center;
+  font-size: 13px;
+}
+
+.third-div > div div:nth-child(2){
+  width: 100%;
+}
+
+.fourth-div{
+  flex-direction: column;
+  justify-content: center;
+  gap: 90px;
+  padding: 0 30px;
+}
+
+.fourth-div img{
+  width: 100%;
+  padding: 0 30px;
+}
+
+.fourth-div > div{
+  width: 100%;
+}
+
+.fourth-div > div h1{
+ text-align: center;
+  font-size: 20px;
+}
+
+.fourth-div > div p{
+ text-align: center;
+  font-size: 13px;
+}
+
+.fifth-div{
+margin-bottom: 80px;
+}
+
+.fifth-div-top-mobile, .fifth-div-bottom-mobile{
+  display: block;
+}
+
+.fifth-div-top-desktop, .fifth-div-bottom-desktop{
+  display: none;
+}
+
+.fifth-div > div{
+    flex-direction: column-reverse;
+    gap: 90px;
+    padding: 120px 0;
+}
+
+.fifth-div > div div:nth-child(1){
+  width: 100%;
+  padding: 0 35px;
+  text-align: center;
+}
+
+.fifth-div > div div:nth-child(1) h1{
+  font-size: 28px;
+}
+
+.fifth-div > div div:nth-child(1) p{
+  font-size: 13px;
+}
+
+.fifth-div > div div:nth-child(2){
+  width: 100%;
+  padding: 0 55px;
+}
+
+.sixth-div h1{
+  padding: 0 65px;
+  font-size: 24px;
+}
+
+.sixth-div button{
+  padding: 10px 32px;
+  font-size: 14px;
+  margin: 0 90px;
+  margin-top: 40px;
+  margin-bottom: 250px;
+  width: max-content;
+}
+
+footer > div{
+  flex-direction: column-reverse;
+  padding: 0 27px;
+  padding-top: 130px;
+  padding-bottom: 100px;
+  gap: 100px;
+}
+
+footer > div div:nth-child(1){
+  width: 100%;
+}
+
+.footer-logo{
+  width: 200px;
+}
+
+footer > div div:nth-child(1) :nth-child(4){
+  margin-bottom: 50px;
+}
+
+footer > div div:nth-child(2){
+  width: 100%;
+}
+
+footer > div div:nth-child(2) h1{
+ font-size: 22px;
+}
+
+footer > div div:nth-child(2) p{
+ font-size: 14px;
+ padding-right: 15px;
+}
+
+footer form{
+flex-direction: column;
+text-align: right;
+gap: 15px;
+}
+
+footer form input{
+  width: 100%;
+  font-size: 14px;
+}
+
+footer form button{
+  padding: 11px 15px;
+  font-size: 16px;
+  margin-left: auto;
 }
 }
