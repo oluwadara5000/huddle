@@ -880,3 +880,509 @@ footer form button{
   margin-left: auto;
 }
 }
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 451px TO 525px */
+@media screen and (min-width: 451px) and (max-width: 525px) {
+  section {
+    width: 100%;
+    margin: auto;
+  }
+
+  br{
+    display: none;
+  }
+
+  header{
+    padding: 0 25px;
+    padding-top: 25px;
+    margin-bottom: 125px;
+  }
+
+  header img{
+    width: 125px;
+  }
+
+  header button{
+    font-size: 14px;
+    padding: 5px 12px;
+  }
+
+  .first-div {
+    padding: 0;
+  }
+
+  .first-div h1{
+    padding: 0 55px;
+    font-size: 32px;
+  }
+
+  .first-div p{
+    padding: 0 45px;
+    font-size: 18px;
+  }
+
+  .first-div button{
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+
+  .second-div{
+    padding: 0 40px;
+    gap: 120px;
+    margin-bottom: 25px;
+  }
+
+  .second-div > div{
+    flex-direction: column;
+    padding: 0 65px;
+    gap: 100px;
+  }
+
+  .second-div > div div h1{
+  font-size: 60px;
+}
+
+.second-div > div div p{
+  font-size: 18px;
+}
+
+.third-div{
+margin-bottom: 130px;
+}
+
+.third-div-top-mobile, .third-div-bottom-mobile{
+  display: block;
+}
+
+.third-div-top-desktop, .third-div-bottom-desktop{
+  display: none;
+}
+
+.third-div > div{
+  flex-direction: column-reverse;
+  padding: 85px 40px;
+  gap: 80px;
+}
+
+.third-div > div div:nth-child(1){
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.third-div > div div:nth-child(1) h1{
+  font-size: 32px;
+  text-align: center;
+}
+
+.third-div > div div:nth-child(1) p{
+text-align: center;
+  font-size: 16px;
+}
+
+.third-div > div div:nth-child(2){
+  width: 100%;
+}
+
+.fourth-div{
+  flex-direction: column;
+  justify-content: center;
+  gap: 90px;
+  padding: 0 30px;
+}
+
+.fourth-div img{
+  width: 100%;
+  padding: 0 30px;
+}
+
+.fourth-div > div{
+  width: 100%;
+}
+
+.fourth-div > div h1{
+ text-align: center;
+  font-size: 32px;
+}
+
+.fourth-div > div p{
+ text-align: center;
+  font-size: 16px;
+}
+
+.fifth-div{
+margin-bottom: 80px;
+}
+
+.fifth-div-top-mobile, .fifth-div-bottom-mobile{
+  display: block;
+}
+
+.fifth-div-top-desktop, .fifth-div-bottom-desktop{
+  display: none;
+}
+
+.fifth-div > div{
+    flex-direction: column-reverse;
+    gap: 90px;
+    padding: 120px 0;
+}
+
+.fifth-div > div div:nth-child(1){
+  width: 100%;
+  padding: 0 35px;
+  text-align: center;
+}
+
+.fifth-div > div div:nth-child(1) h1{
+  font-size: 32px;
+}
+
+.fifth-div > div div:nth-child(1) p{
+  font-size: 16px;
+}
+
+.fifth-div > div div:nth-child(2){
+  width: 100%;
+  padding: 0 55px;
+}
+
+.sixth-div h1{
+  padding: 0 65px;
+  font-size: 36px;
+}
+
+.sixth-div button{
+  padding: 12px 32px;
+  font-size: 16px;
+  margin: 0 90px;
+  margin-top: 40px;
+  margin-bottom: 250px;
+  width: max-content;
+}
+
+footer > div{
+  flex-direction: column-reverse;
+  padding: 0 27px;
+  padding-top: 130px;
+  padding-bottom: 100px;
+  gap: 100px;
+}
+
+footer > div div:nth-child(1){
+  width: 100%;
+}
+
+.footer-logo{
+  width: 200px;
+}
+
+footer > div div:nth-child(1) :nth-child(4){
+  margin-bottom: 50px;
+}
+
+footer > div div:nth-child(2){
+  width: 100%;
+}
+
+footer > div div:nth-child(2) h1{
+ font-size: 22px;
+}
+
+footer > div div:nth-child(2) p{
+ font-size: 14px;
+ padding-right: 15px;
+}
+
+footer form{
+flex-direction: column;
+text-align: right;
+gap: 15px;
+}
+
+footer form input{
+  width: 100%;
+  font-size: 14px;
+}
+
+footer form button{
+  padding: 11px 15px;
+  font-size: 16px;
+  margin-left: auto;
+}
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 526px TO 600px */
+@media screen and (min-width: 526px) and (max-width: 600px) {
+  section {
+    width: 100%;
+    margin: auto;
+  }
+
+  br{
+    display: none;
+  }
+
+  header{
+    padding: 0 25px;
+    padding-top: 25px;
+    margin-bottom: 125px;
+  }
+
+  header img{
+    width: 145px;
+  }
+
+  header button{
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .first-div {
+    padding: 0;
+  }
+
+  .first-div h1{
+    padding: 0 55px;
+    font-size: 32px;
+  }
+
+  .first-div p{
+    padding: 0 45px;
+    font-size: 18px;
+  }
+
+  .first-div button{
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+
+  .second-div{
+    padding: 0 40px;
+    gap: 120px;
+    margin-bottom: 25px;
+  }
+
+  .second-div > div{
+    flex-direction: column;
+    padding: 0 65px;
+    gap: 100px;
+  }
+
+  .second-div > div div h1{
+  font-size: 60px;
+}
+
+.second-div > div div p{
+  font-size: 18px;
+}
+
+.third-div{
+margin-bottom: 130px;
+}
+
+.third-div-top-mobile, .third-div-bottom-mobile{
+  display: block;
+}
+
+.third-div-top-desktop, .third-div-bottom-desktop{
+  display: none;
+}
+
+.third-div > div{
+  flex-direction: column-reverse;
+  padding: 85px 40px;
+  gap: 80px;
+}
+
+.third-div > div div:nth-child(1){
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.third-div > div div:nth-child(1) h1{
+  font-size: 32px;
+  text-align: center;
+}
+
+.third-div > div div:nth-child(1) p{
+text-align: center;
+  font-size: 16px;
+}
+
+.third-div > div div:nth-child(2){
+  width: 100%;
+}
+
+.fourth-div{
+  flex-direction: column;
+  justify-content: center;
+  gap: 90px;
+  padding: 0 30px;
+}
+
+.fourth-div img{
+  width: 100%;
+  padding: 0 30px;
+}
+
+.fourth-div > div{
+  width: 100%;
+}
+
+.fourth-div > div h1{
+ text-align: center;
+  font-size: 32px;
+}
+
+.fourth-div > div p{
+ text-align: center;
+  font-size: 16px;
+}
+
+.fifth-div{
+margin-bottom: 80px;
+}
+
+.fifth-div-top-mobile, .fifth-div-bottom-mobile{
+  display: block;
+}
+
+.fifth-div-top-desktop, .fifth-div-bottom-desktop{
+  display: none;
+}
+
+.fifth-div > div{
+    flex-direction: column-reverse;
+    gap: 90px;
+    padding: 120px 0;
+}
+
+.fifth-div > div div:nth-child(1){
+  width: 100%;
+  padding: 0 35px;
+  text-align: center;
+}
+
+.fifth-div > div div:nth-child(1) h1{
+  font-size: 32px;
+}
+
+.fifth-div > div div:nth-child(1) p{
+  font-size: 16px;
+}
+
+.fifth-div > div div:nth-child(2){
+  width: 100%;
+  padding: 0 55px;
+}
+
+.sixth-div h1{
+  padding: 0 65px;
+  font-size: 36px;
+}
+
+.sixth-div button{
+  padding: 12px 32px;
+  font-size: 16px;
+  margin: 0 90px;
+  margin-top: 40px;
+  margin-bottom: 250px;
+  width: max-content;
+}
+
+footer > div{
+  flex-direction: column-reverse;
+  padding: 0 27px;
+  padding-top: 130px;
+  padding-bottom: 100px;
+  gap: 100px;
+}
+
+footer > div div:nth-child(1){
+  width: 100%;
+}
+
+.footer-logo{
+  width: 200px;
+}
+
+footer > div div:nth-child(1) :nth-child(4){
+  margin-bottom: 50px;
+}
+
+footer > div div:nth-child(2){
+  width: 100%;
+}
+
+footer > div div:nth-child(2) h1{
+ font-size: 22px;
+}
+
+footer > div div:nth-child(2) p{
+ font-size: 14px;
+ padding-right: 15px;
+}
+
+footer form{
+flex-direction: column;
+text-align: right;
+gap: 15px;
+}
+
+footer form input{
+  width: 100%;
+  font-size: 14px;
+}
+
+footer form button{
+  padding: 11px 15px;
+  font-size: 16px;
+  margin-left: auto;
+}
+}
